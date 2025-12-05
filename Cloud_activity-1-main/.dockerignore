@@ -1,6 +1,0 @@
-target/
-logs/
-*.md
-*.log
-Dockerfile
-docker-compose.yml
