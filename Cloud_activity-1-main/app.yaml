@@ -1,12 +1,14 @@
 runtime: java17
 
-env: flex
+
 
 env_variables:
   SPRING_PROFILES_ACTIVE: "gcp"
-  CLOUD_SQL_INSTANCE: "winter-vim-482820-f7:us-central1:cloud-test-db"
-  DB_USER: "dbsuser"
-  DB_PASS: "CloudApp2025"
 
-beta_settings:
-  cloud_sql_instances: "winter-vim-482820-f7:us-central1:cloud-test-db"
+instance_class: F1
+
+automatic_scaling:
+  min_instances: 1
+  max_instances: 1
+  min_idle_instances: 0
+  max_idle_instances: 0
