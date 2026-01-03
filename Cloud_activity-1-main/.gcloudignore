@@ -1,0 +1,8 @@
+.git
+.gitignore
+.mvn/
+target/classes/
+target/test-classes/
+target/maven-status/
+*.md
+README*
