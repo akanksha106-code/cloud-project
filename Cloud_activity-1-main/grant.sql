@@ -1,0 +1,1 @@
+GRANT ALL PRIVILEGES ON cloud_test_db.* TO 'dbsuser'@'%';
