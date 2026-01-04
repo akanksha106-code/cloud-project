@@ -1,10 +1,14 @@
 runtime: java17
+entrypoint: java -jar target/DBS-0.0.1-SNAPSHOT.jar
 
 # Environment variables
 env_variables:
   SPRING_PROFILES_ACTIVE: "gcp"
   DB_USER: "dbsuser"
   DB_PASS: "CloudApp2025"
+  GOOGLE_CLOUD_PROJECT: "winter-vim-482820-f7"
+  GOOGLE_CLOUD_REGION: "us-central1"
+  CLOUD_SQL_INSTANCE: "cloud-test-db"
 
 # Instance configuration
 instance_class: F1
