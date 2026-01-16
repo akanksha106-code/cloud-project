@@ -1,0 +1,440 @@
+----------------------------------------
+/var/log/eb-hooks.log
+----------------------------------------
+
+
+----------------------------------------
+/var/log/nginx/access.log
+----------------------------------------
+23.224.68.178 - - [16/Jan/2026:14:52:10 +0000] "GET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 146 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:10 +0000] "GET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 142 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:10 +0000] "GET /vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 138 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:10 +0000] "GET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php HTTP/1.1" 404 145 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:11 +0000] "GET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 157 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:11 +0000] "GET /phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 143 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:11 +0000] "GET /phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 139 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:11 +0000] "GET /phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 135 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:11 +0000] "GET /phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 131 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:12 +0000] "GET /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 147 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:12 +0000] "GET /lib/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 143 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:12 +0000] "GET /lib/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 139 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:12 +0000] "GET /lib/phpunit/Util/PHP/eval-stdin.php HTTP/1.1" 404 135 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:13 +0000] "GET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 154 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:13 +0000] "GET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 158 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:13 +0000] "GET /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 154 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:13 +0000] "GET /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 153 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:14 +0000] "GET /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 154 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:14 +0000] "GET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 155 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:14 +0000] "GET /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 156 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:14 +0000] "GET /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 153 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:15 +0000] "GET /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 156 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:15 +0000] "GET /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 155 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:15 +0000] "GET /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 158 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:15 +0000] "GET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 154 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:15 +0000] "GET /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 155 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:16 +0000] "GET /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 154 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:16 +0000] "GET /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 154 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:16 +0000] "GET /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 156 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:16 +0000] "GET /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 157 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:17 +0000] "GET /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 155 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:17 +0000] "GET /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 167 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:17 +0000] "GET /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 156 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:17 +0000] "GET /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 157 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:18 +0000] "GET /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 155 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:18 +0000] "GET /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1" 404 154 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:18 +0000] "GET /index.php?s=/index/\x5Cthink\x5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1" 400 435 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:18 +0000] "GET /public/index.php?s=/index/\x5Cthink\x5Capp/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1" 400 435 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:18 +0000] "GET /index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5(\x22hi\x22));?>+/tmp/index1.php HTTP/1.1" 400 435 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:19 +0000] "GET /index.php?lang=../../../../../../../../tmp/index1 HTTP/1.1" 404 109 "-" "libredtail-http" "-"
+23.224.68.178 - - [16/Jan/2026:14:52:19 +0000] "GET /containers/json HTTP/1.1" 404 115 "-" "libredtail-http" "-"
+204.76.203.219 - - [16/Jan/2026:15:13:17 +0000] "GET / HTTP/1.1" 200 1379 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" "-"
+130.49.216.33 - - [16/Jan/2026:15:14:11 +0000] "GET /service/api-docs/ HTTP/1.1" 404 117 "-" "Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" "-"
+80.82.70.133 - - [16/Jan/2026:15:44:35 +0000] "\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RH\xC5\x1A#\xF7:N\xDF\xE2\xB4\x82/\xFF\x09T\x9F\xA7\xC4y\xB0h\xC6\x13\x8C\xA4\x1C=\x22\xE1\x1A\x98 \x84\xB4,\x85\xAFn\xE3Y\xBBbhl\xFF(=':\xA9\x82\xD9o\xC8\xA2\xD7\x93\x98\xB4\xEF\x80\xE5\xB9\x90\x00(\xC0" 400 150 "-" "-" "-"
+80.82.77.202 - - [16/Jan/2026:15:45:16 +0000] "GET / HTTP/1.1" 200 1379 "-" "fasthttp" "-"
+80.82.77.202 - - [16/Jan/2026:15:45:16 +0000] "\x16\x03\x01\x00\xEE\x01\x00\x00\xEA\x03\x03\xF0\x8E\xDB\xC83\x19\xC9\xEA.\x89\x8El\xAE\x87\x92\xCCVC>\xC1H\x1D\x80\xAA\x91\x18y5R\xDF\x08\x0B \x98\xFD\xCA\xA6\xFE\xF1\xFF8\xA5\x0B\xA3\xFD\x1DN\xF2n-\x95\x8F\xA0\x85\x1A\x12:E\x80\xF6O\xF5b\xE6\xEA\x00&\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x09\xC0\x13\xC0" 400 150 "-" "-" "-"
+80.82.77.202 - - [16/Jan/2026:15:45:16 +0000] "GET /aaa9 HTTP/1.1" 404 104 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" "-"
+80.82.77.202 - - [16/Jan/2026:15:45:17 +0000] "\x16\x03\x01\x00\xEE\x01\x00\x00\xEA\x03\x03'\xE48\xE6U\x19T\x8B\x09\x19\xE1d\x9Es\x17\x0B\xBE\xD8\x11p\xE7\x86\x0C\x02\xA3\x86\xA3\xD3\x07n\xCB\xEE eK5N\xCB\x8B\xFC\xD3\xDE\x13\xCF\x87\x5CE\x98\xC5\x97\x14\x7Fp\xD9\x90\x17\xAB8\xD9r>\xCD\x8FBr\x00&\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x09\xC0\x13\xC0" 400 150 "-" "-" "-"
+80.82.77.202 - - [16/Jan/2026:15:45:17 +0000] "GET /aab9 HTTP/1.1" 404 104 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" "-"
+80.82.77.202 - - [16/Jan/2026:15:45:36 +0000] "\x16\x03\x01\x00\xEE\x01\x00\x00\xEA\x03\x03\xC1\x8F\xBE\xD1\xE5\xBC\xCC\x15t\x8B\x17\xC3\xD7<\xD37j~\xAA\xBD\x93y\x11\x88\xBB\x03t\xFBT\x07\x18\xE4 V\xA6\x08\x11\xDFU\xDE\x84\x1C\xC2g\x0Fd\xD4\x06\x9C<\x99\x90\x10\x94\x8C\xEF[\x87'\xFC\x1F\xAC\xD7\xF74\x00&\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x09\xC0\x13\xC0" 400 150 "-" "-" "-"
+80.82.77.202 - - [16/Jan/2026:15:45:36 +0000] "GET /aaa9 HTTP/1.1" 404 104 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" "-"
+80.82.77.202 - - [16/Jan/2026:15:45:36 +0000] "\x16\x03\x01\x00\xEE\x01\x00\x00\xEA\x03\x03[\xB9\xA0\x8D\xCB\xCC\xD9 !\xABAx\x15\xD2\x91\x22\x17\xC9,\xAC\x1D\xBF\xF5p\xB8>?0{%\xC9\xD8 \xC4\xFF3\x1B0\xA3\x8B\xE5\x05\xC9\x1B\x87P+\x1E\xC9\x9DV\x91\xA3\xFCOK|Sw\x5Cy\xBA\xBCxr\x00&\xC0+\xC0/\xC0,\xC00\xCC\xA9\xCC\xA8\xC0\x09\xC0\x13\xC0" 400 150 "-" "-" "-"
+80.82.77.202 - - [16/Jan/2026:15:45:36 +0000] "GET /aab9 HTTP/1.1" 404 104 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36" "-"
+34.207.164.227 - - [16/Jan/2026:15:54:48 +0000] "GET / HTTP/1.1" 200 1379 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" "-"
+130.49.216.33 - - [16/Jan/2026:16:01:58 +0000] "GET /service/api-docs/ HTTP/1.1" 404 117 "-" "Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" "-"
+204.76.203.219 - - [16/Jan/2026:16:06:41 +0000] "GET / HTTP/1.1" 200 1379 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" "-"
+18.246.246.110 - - [16/Jan/2026:16:07:33 +0000] "GET / HTTP/1.1" 200 1379 "-" "Mozilla/5.0 (Linux; Android 9; SM-G965F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.89 Mobile Safari/537.36" "-"
+18.246.246.110 - - [16/Jan/2026:16:07:44 +0000] "GET //cdn.js HTTP/1.1" 404 107 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/534.14 (KHTML, like Gecko) Chrome/9.0.601.0 Safari/534.14" "-"
+206.206.124.36 - - [16/Jan/2026:16:13:59 +0000] "GET /.env HTTP/1.1" 404 104 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36" "-"
+206.206.124.36 - - [16/Jan/2026:16:14:00 +0000] "POST / HTTP/1.1" 405 109 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36" "-"
+167.94.138.190 - - [16/Jan/2026:16:47:56 +0000] "GET / HTTP/1.1" 200 1379 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)" "-"
+167.94.138.190 - - [16/Jan/2026:16:47:56 +0000] "PRI * HTTP/2.0" 400 150 "-" "-" "-"
+167.94.138.190 - - [16/Jan/2026:16:47:56 +0000] "GET /favicon.ico HTTP/1.1" 404 111 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)" "-"
+167.94.138.190 - - [16/Jan/2026:16:48:00 +0000] "\x16\x03\x01\x00\xEE\x01\x00\x00\xEA\x03\x03\xCEXA\xC2\xFD\xBAF\x94\xF4^\xD2\xE7\xF2\xD8\x18\xED\xFA\xE4R\x86\x919Lq\x15\x17\xAE" 400 150 "-" "-" "-"
+167.94.138.190 - - [16/Jan/2026:16:48:01 +0000] "GET /wiki HTTP/1.1" 404 104 "-" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)" "-"
+167.94.138.190 - - [16/Jan/2026:16:48:06 +0000] "\x16\x03\x01\x00\xEE\x01\x00\x00\xEA\x03\x03\xF2AmO\xE1\xF9U\x81\xA4\xBB\x10\x17\xEB@\x16y\xF4\xBB\xCC\x1EJ}\xBA-'%\xDE\xE2\x8Do\x83\x87 '8" 400 150 "-" "-" "-"
+130.49.216.33 - - [16/Jan/2026:16:49:37 +0000] "GET /service/api-docs/ HTTP/1.1" 404 117 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 14) AppleWebKit/620.32 (KHTML, like Gecko) Version/17.1.10 Safari/620.32" "-"
+35.87.82.99 - - [16/Jan/2026:16:57:03 +0000] "GET / HTTP/1.1" 200 1379 "-" "Mozilla/5.0 (Linux; U; Android 2.2; en-ca; GT-P1000M Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1" "-"
+35.87.82.99 - - [16/Jan/2026:16:57:14 +0000] "GET //cdn.js HTTP/1.1" 404 107 "-" "Mozilla/5.0 (Linux; U; Android 2.1; en-us; Nexus One Build/ERD62) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17" "-"
+87.121.84.46 - - [16/Jan/2026:17:04:55 +0000] "GET / HTTP/1.1" 200 1379 "-" "-" "-"
+204.76.203.219 - - [16/Jan/2026:17:05:19 +0000] "GET / HTTP/1.1" 200 1379 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" "-"
+130.49.216.33 - - [16/Jan/2026:17:37:40 +0000] "GET /service/api-docs/ HTTP/1.1" 404 117 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0" "-"
+204.76.203.219 - - [16/Jan/2026:17:54:10 +0000] "GET / HTTP/1.1" 200 1379 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" "-"
+130.49.216.33 - - [16/Jan/2026:18:26:39 +0000] "GET /service/api-docs/ HTTP/1.1" 404 117 "-" "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" "-"
+204.76.203.219 - - [16/Jan/2026:18:51:48 +0000] "GET / HTTP/1.1" 200 1379 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" "-"
+130.49.216.33 - - [16/Jan/2026:19:14:35 +0000] "GET /service/api-docs/ HTTP/1.1" 404 117 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15" "-"
+145.223.41.47 - - [16/Jan/2026:19:21:05 +0000] "GET /.env HTTP/1.1" 404 104 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36" "-"
+145.223.41.47 - - [16/Jan/2026:19:21:05 +0000] "POST / HTTP/1.1" 405 109 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.140 Safari/537.36" "-"
+204.76.203.219 - - [16/Jan/2026:19:41:52 +0000] "GET / HTTP/1.1" 200 1379 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36 Edg/90.0.818.46" "-"
+93.174.93.12 - - [16/Jan/2026:19:42:46 +0000] "\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RH\xC5\x1A#\xF7:N\xDF\xE2\xB4\x82/\xFF\x09T\x9F\xA7\xC4y\xB0h\xC6\x13\x8C\xA4\x1C=\x22\xE1\x1A\x98 \x84\xB4,\x85\xAFn\xE3Y\xBBbhl\xFF(=':\xA9\x82\xD9o\xC8\xA2\xD7\x93\x98\xB4\xEF\x80\xE5\xB9\x90\x00(\xC0" 400 150 "-" "-" "-"
+130.49.216.33 - - [16/Jan/2026:20:01:56 +0000] "GET /service/api-docs/ HTTP/1.1" 404 117 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:1.9.7.20) Gecko/ Firefox/3.6.5" "-"
+152.59.190.176 - - [16/Jan/2026:20:04:20 +0000] "GET / HTTP/1.1" 200 1379 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+152.59.190.176 - - [16/Jan/2026:20:04:20 +0000] "GET /favicon.ico HTTP/1.1" 404 111 "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+152.59.190.176 - - [16/Jan/2026:20:04:32 +0000] "GET /add HTTP/1.1" 200 1420 "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+152.59.190.176 - - [16/Jan/2026:20:04:41 +0000] "POST /add HTTP/1.1" 302 0 "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/add" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+152.59.190.176 - - [16/Jan/2026:20:04:41 +0000] "GET / HTTP/1.1" 200 1769 "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/add" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+152.59.190.176 - - [16/Jan/2026:20:04:43 +0000] "GET /add HTTP/1.1" 502 552 "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+152.59.190.176 - - [16/Jan/2026:20:04:50 +0000] "GET /add HTTP/1.1" 502 552 "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+152.59.190.176 - - [16/Jan/2026:20:04:56 +0000] "GET /add HTTP/1.1" 200 1420 "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+152.59.190.176 - - [16/Jan/2026:20:05:17 +0000] "POST /add HTTP/1.1" 302 0 "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/add" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+152.59.190.176 - - [16/Jan/2026:20:05:17 +0000] "GET / HTTP/1.1" 200 2178 "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/add" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+152.59.190.176 - - [16/Jan/2026:20:05:20 +0000] "GET /courses HTTP/1.1" 200 1544 "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+152.59.190.176 - - [16/Jan/2026:20:05:23 +0000] "GET /courses/add HTTP/1.1" 200 2289 "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/courses" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+152.59.190.176 - - [16/Jan/2026:20:05:34 +0000] "POST /courses/add HTTP/1.1" 302 0 "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/courses/add" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+152.59.190.176 - - [16/Jan/2026:20:05:34 +0000] "GET /courses HTTP/1.1" 200 2099 "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/courses/add" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+152.59.190.176 - - [16/Jan/2026:20:05:37 +0000] "GET /courses/add HTTP/1.1" 200 2289 "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/courses" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+152.59.190.176 - - [16/Jan/2026:20:05:48 +0000] "POST /courses/add HTTP/1.1" 302 0 "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/courses/add" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+152.59.190.176 - - [16/Jan/2026:20:05:48 +0000] "GET /courses HTTP/1.1" 200 2663 "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/courses/add" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+152.59.190.176 - - [16/Jan/2026:20:05:50 +0000] "GET /enrollments HTTP/1.1" 200 2683 "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/courses" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+152.59.190.176 - - [16/Jan/2026:20:06:01 +0000] "GET / HTTP/1.1" 200 2178 "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/enrollments" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" "-"
+
+
+----------------------------------------
+/var/log/nginx/error.log
+----------------------------------------
+2026/01/15 19:19:58 [warn] 28035#28035: *41713 using uninitialized "day" variable while logging request, client: 134.209.63.62, server: , request: "PRI * HTTP/2.0"
+2026/01/15 19:19:58 [warn] 28035#28035: *41713 using uninitialized "hour" variable while logging request, client: 134.209.63.62, server: , request: "PRI * HTTP/2.0"
+2026/01/15 19:51:45 [warn] 28035#28035: *41719 using uninitialized "year" variable while logging request, client: 205.210.31.143, server: , request: " Ê  Æ¶th_–&óˆXU4Öëa!Ûwv¯Âä(Uí-)9Vý\Ý  hÌÌÀ/À+À0À,ÀÀ À'À#ÀÀ	À(À$ÀÀ"
+2026/01/15 19:51:45 [warn] 28035#28035: *41719 using uninitialized "month" variable while logging request, client: 205.210.31.143, server: , request: " Ê  Æ¶th_–&óˆXU4Öëa!Ûwv¯Âä(Uí-)9Vý\Ý  hÌÌÀ/À+À0À,ÀÀ À'À#ÀÀ	À(À$ÀÀ"
+2026/01/15 19:51:45 [warn] 28035#28035: *41719 using uninitialized "day" variable while logging request, client: 205.210.31.143, server: , request: " Ê  Æ¶th_–&óˆXU4Öëa!Ûwv¯Âä(Uí-)9Vý\Ý  hÌÌÀ/À+À0À,ÀÀ À'À#ÀÀ	À(À$ÀÀ"
+2026/01/15 19:51:45 [warn] 28035#28035: *41719 using uninitialized "hour" variable while logging request, client: 205.210.31.143, server: , request: " Ê  Æ¶th_–&óˆXU4Öëa!Ûwv¯Âä(Uí-)9Vý\Ý  hÌÌÀ/À+À0À,ÀÀ À'À#ÀÀ	À(À$ÀÀ"
+2026/01/15 19:51:45 [warn] 28035#28035: *41718 using uninitialized "year" variable while logging request, client: 205.210.31.143, server: , request: " î  ê)@ƒ¹áœŸ|“Å‡5ôO8xl3"ztÙBªmV„ ÷„t¯Ç—–ö…P”ZÝ¡øLBÖxü…o?ºØÑ &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/15 19:51:45 [warn] 28035#28035: *41718 using uninitialized "month" variable while logging request, client: 205.210.31.143, server: , request: " î  ê)@ƒ¹áœŸ|“Å‡5ôO8xl3"ztÙBªmV„ ÷„t¯Ç—–ö…P”ZÝ¡øLBÖxü…o?ºØÑ &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/15 19:51:45 [warn] 28035#28035: *41718 using uninitialized "day" variable while logging request, client: 205.210.31.143, server: , request: " î  ê)@ƒ¹áœŸ|“Å‡5ôO8xl3"ztÙBªmV„ ÷„t¯Ç—–ö…P”ZÝ¡øLBÖxü…o?ºØÑ &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/15 19:51:45 [warn] 28035#28035: *41718 using uninitialized "hour" variable while logging request, client: 205.210.31.143, server: , request: " î  ê)@ƒ¹áœŸ|“Å‡5ôO8xl3"ztÙBªmV„ ÷„t¯Ç—–ö…P”ZÝ¡øLBÖxü…o?ºØÑ &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/15 22:02:48 [warn] 28035#28035: *41933 using uninitialized "year" variable while logging request, client: 138.68.161.183, server: , request: " {  wGÿfšKp@œ‹ÕK—Þ"dyõÐ;4[bÖ¬ÜÝÔ  À/À+ÀÀ ÀÀ	ÀÀ"
+2026/01/15 22:02:48 [warn] 28035#28035: *41933 using uninitialized "month" variable while logging request, client: 138.68.161.183, server: , request: " {  wGÿfšKp@œ‹ÕK—Þ"dyõÐ;4[bÖ¬ÜÝÔ  À/À+ÀÀ ÀÀ	ÀÀ"
+2026/01/15 22:02:48 [warn] 28035#28035: *41933 using uninitialized "day" variable while logging request, client: 138.68.161.183, server: , request: " {  wGÿfšKp@œ‹ÕK—Þ"dyõÐ;4[bÖ¬ÜÝÔ  À/À+ÀÀ ÀÀ	ÀÀ"
+2026/01/15 22:02:48 [warn] 28035#28035: *41933 using uninitialized "hour" variable while logging request, client: 138.68.161.183, server: , request: " {  wGÿfšKp@œ‹ÕK—Þ"dyõÐ;4[bÖ¬ÜÝÔ  À/À+ÀÀ ÀÀ	ÀÀ"
+2026/01/15 22:02:48 [warn] 28035#28035: *41932 using uninitialized "year" variable while logging request, client: 138.68.161.183, server: , request: " {  wƒ¶ BWi˜ð½£'„+Lq¥14(Óyá·‹™.¡=Ÿ·  À/À+ÀÀ ÀÀ	ÀÀ"
+2026/01/15 22:02:48 [warn] 28035#28035: *41932 using uninitialized "month" variable while logging request, client: 138.68.161.183, server: , request: " {  wƒ¶ BWi˜ð½£'„+Lq¥14(Óyá·‹™.¡=Ÿ·  À/À+ÀÀ ÀÀ	ÀÀ"
+2026/01/15 22:02:48 [warn] 28035#28035: *41932 using uninitialized "day" variable while logging request, client: 138.68.161.183, server: , request: " {  wƒ¶ BWi˜ð½£'„+Lq¥14(Óyá·‹™.¡=Ÿ·  À/À+ÀÀ ÀÀ	ÀÀ"
+2026/01/15 22:02:48 [warn] 28035#28035: *41932 using uninitialized "hour" variable while logging request, client: 138.68.161.183, server: , request: " {  wƒ¶ BWi˜ð½£'„+Lq¥14(Óyá·‹™.¡=Ÿ·  À/À+ÀÀ ÀÀ	ÀÀ"
+2026/01/15 22:27:37 [warn] 28036#28036: *41961 using uninitialized "year" variable while logging request, client: 198.235.24.77, server: , request: " Ê  ÆJí.ºXª¥#aØ‚}Ñß*ŠQâíø àœ
+z'  hÌÌÀ/À+À0À,ÀÀ À'À#ÀÀ	À(À$ÀÀ"
+2026/01/15 22:27:37 [warn] 28036#28036: *41961 using uninitialized "month" variable while logging request, client: 198.235.24.77, server: , request: " Ê  ÆJí.ºXª¥#aØ‚}Ñß*ŠQâíø àœ
+z'  hÌÌÀ/À+À0À,ÀÀ À'À#ÀÀ	À(À$ÀÀ"
+2026/01/15 22:27:37 [warn] 28036#28036: *41961 using uninitialized "day" variable while logging request, client: 198.235.24.77, server: , request: " Ê  ÆJí.ºXª¥#aØ‚}Ñß*ŠQâíø àœ
+z'  hÌÌÀ/À+À0À,ÀÀ À'À#ÀÀ	À(À$ÀÀ"
+2026/01/15 22:27:37 [warn] 28036#28036: *41961 using uninitialized "hour" variable while logging request, client: 198.235.24.77, server: , request: " Ê  ÆJí.ºXª¥#aØ‚}Ñß*ŠQâíø àœ
+z'  hÌÌÀ/À+À0À,ÀÀ À'À#ÀÀ	À(À$ÀÀ"
+2026/01/15 22:27:37 [warn] 28036#28036: *41960 using uninitialized "year" variable while logging request, client: 198.235.24.77, server: , request: " î  ê—ì#Ù µÙî¦ªõÁù•É„‡ Ä0QZE0ëì{7W Àãéb"
+2026/01/15 22:27:37 [warn] 28036#28036: *41960 using uninitialized "month" variable while logging request, client: 198.235.24.77, server: , request: " î  ê—ì#Ù µÙî¦ªõÁù•É„‡ Ä0QZE0ëì{7W Àãéb"
+2026/01/15 22:27:37 [warn] 28036#28036: *41960 using uninitialized "day" variable while logging request, client: 198.235.24.77, server: , request: " î  ê—ì#Ù µÙî¦ªõÁù•É„‡ Ä0QZE0ëì{7W Àãéb"
+2026/01/15 22:27:37 [warn] 28036#28036: *41960 using uninitialized "hour" variable while logging request, client: 198.235.24.77, server: , request: " î  ê—ì#Ù µÙî¦ªõÁù•É„‡ Ä0QZE0ëì{7W Àãéb"
+2026/01/16 02:43:10 [warn] 28035#28035: *42007 using uninitialized "year" variable while logging request, client: 93.174.93.12, server: , request: "o kRHÅ#÷:Nßâ´‚/ÿ	TŸ§Äy°hÆŒ¤="á˜ „´,…¯nãY»bhlÿ(=':©‚ÙoÈ¢×“˜´ï€å¹ (À"
+2026/01/16 02:43:10 [warn] 28035#28035: *42007 using uninitialized "month" variable while logging request, client: 93.174.93.12, server: , request: "o kRHÅ#÷:Nßâ´‚/ÿ	TŸ§Äy°hÆŒ¤="á˜ „´,…¯nãY»bhlÿ(=':©‚ÙoÈ¢×“˜´ï€å¹ (À"
+2026/01/16 02:43:10 [warn] 28035#28035: *42007 using uninitialized "day" variable while logging request, client: 93.174.93.12, server: , request: "o kRHÅ#÷:Nßâ´‚/ÿ	TŸ§Äy°hÆŒ¤="á˜ „´,…¯nãY»bhlÿ(=':©‚ÙoÈ¢×“˜´ï€å¹ (À"
+2026/01/16 02:43:10 [warn] 28035#28035: *42007 using uninitialized "hour" variable while logging request, client: 93.174.93.12, server: , request: "o kRHÅ#÷:Nßâ´‚/ÿ	TŸ§Äy°hÆŒ¤="á˜ „´,…¯nãY»bhlÿ(=':©‚ÙoÈ¢×“˜´ï€å¹ (À"
+2026/01/16 04:13:22 [warn] 28036#28036: *42024 using uninitialized "year" variable while logging request, client: 103.236.95.173, server: , request: "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1"
+2026/01/16 04:13:22 [warn] 28036#28036: *42024 using uninitialized "month" variable while logging request, client: 103.236.95.173, server: , request: "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1"
+2026/01/16 04:13:22 [warn] 28036#28036: *42024 using uninitialized "day" variable while logging request, client: 103.236.95.173, server: , request: "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1"
+2026/01/16 04:13:22 [warn] 28036#28036: *42024 using uninitialized "hour" variable while logging request, client: 103.236.95.173, server: , request: "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1"
+2026/01/16 04:13:23 [warn] 28036#28036: *42025 using uninitialized "year" variable while logging request, client: 103.236.95.173, server: , request: "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh HTTP/1.1"
+2026/01/16 04:13:23 [warn] 28036#28036: *42025 using uninitialized "month" variable while logging request, client: 103.236.95.173, server: , request: "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh HTTP/1.1"
+2026/01/16 04:13:23 [warn] 28036#28036: *42025 using uninitialized "day" variable while logging request, client: 103.236.95.173, server: , request: "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh HTTP/1.1"
+2026/01/16 04:13:23 [warn] 28036#28036: *42025 using uninitialized "hour" variable while logging request, client: 103.236.95.173, server: , request: "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh HTTP/1.1"
+2026/01/16 06:32:10 [warn] 28035#28035: *42255 using uninitialized "year" variable while logging request, client: 195.178.110.109, server: , request: "¨ ¤g¹Å¡àÈdÅIHDìú‚ùí’Á¿èØ†"
+2026/01/16 06:32:10 [warn] 28035#28035: *42255 using uninitialized "month" variable while logging request, client: 195.178.110.109, server: , request: "¨ ¤g¹Å¡àÈdÅIHDìú‚ùí’Á¿èØ†"
+2026/01/16 06:32:10 [warn] 28035#28035: *42255 using uninitialized "day" variable while logging request, client: 195.178.110.109, server: , request: "¨ ¤g¹Å¡àÈdÅIHDìú‚ùí’Á¿èØ†"
+2026/01/16 06:32:10 [warn] 28035#28035: *42255 using uninitialized "hour" variable while logging request, client: 195.178.110.109, server: , request: "¨ ¤g¹Å¡àÈdÅIHDìú‚ùí’Á¿èØ†"
+2026/01/16 06:32:10 [warn] 28035#28035: *42256 using uninitialized "year" variable while logging request, client: 195.178.110.109, server: , request: "¨ ¤eƒV2á	~hð³Éz¹­/3&‡„×†½%!·jvX `®]>"
+2026/01/16 06:32:10 [warn] 28035#28035: *42256 using uninitialized "month" variable while logging request, client: 195.178.110.109, server: , request: "¨ ¤eƒV2á	~hð³Éz¹­/3&‡„×†½%!·jvX `®]>"
+2026/01/16 06:32:10 [warn] 28035#28035: *42256 using uninitialized "day" variable while logging request, client: 195.178.110.109, server: , request: "¨ ¤eƒV2á	~hð³Éz¹­/3&‡„×†½%!·jvX `®]>"
+2026/01/16 06:32:10 [warn] 28035#28035: *42256 using uninitialized "hour" variable while logging request, client: 195.178.110.109, server: , request: "¨ ¤eƒV2á	~hð³Éz¹­/3&‡„×†½%!·jvX `®]>"
+2026/01/16 06:32:11 [warn] 28035#28035: *42257 using uninitialized "year" variable while logging request, client: 195.178.110.109, server: , request: "¨ ¤Ò#å76UVxº9d«%¤fe¥Ç‰^³^lsn~ :8HIr}™­äè: ‡^¡,™É“èmºã…* À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 06:32:11 [warn] 28035#28035: *42257 using uninitialized "month" variable while logging request, client: 195.178.110.109, server: , request: "¨ ¤Ò#å76UVxº9d«%¤fe¥Ç‰^³^lsn~ :8HIr}™­äè: ‡^¡,™É“èmºã…* À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 06:32:11 [warn] 28035#28035: *42257 using uninitialized "day" variable while logging request, client: 195.178.110.109, server: , request: "¨ ¤Ò#å76UVxº9d«%¤fe¥Ç‰^³^lsn~ :8HIr}™­äè: ‡^¡,™É“èmºã…* À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 06:32:11 [warn] 28035#28035: *42257 using uninitialized "hour" variable while logging request, client: 195.178.110.109, server: , request: "¨ ¤Ò#å76UVxº9d«%¤fe¥Ç‰^³^lsn~ :8HIr}™­äè: ‡^¡,™É“èmºã…* À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 08:50:19 [warn] 28035#28035: *42499 using uninitialized "year" variable while logging request, client: 172.239.118.48, server: , request: "  üd\¦¢´=ÉÆJ35¢­Ú$‚KP®c ¥£²N~ ŠžOýZõ®à4^|ÚZÔÍ¥ ¥ü_äS²-Æ·/} >À,À0 ŸÌ©Ì¨ÌªÀ+À/ žÀ$À( kÀ#À' gÀ"
+2026/01/16 08:50:19 [warn] 28035#28035: *42499 using uninitialized "month" variable while logging request, client: 172.239.118.48, server: , request: "  üd\¦¢´=ÉÆJ35¢­Ú$‚KP®c ¥£²N~ ŠžOýZõ®à4^|ÚZÔÍ¥ ¥ü_äS²-Æ·/} >À,À0 ŸÌ©Ì¨ÌªÀ+À/ žÀ$À( kÀ#À' gÀ"
+2026/01/16 08:50:19 [warn] 28035#28035: *42499 using uninitialized "day" variable while logging request, client: 172.239.118.48, server: , request: "  üd\¦¢´=ÉÆJ35¢­Ú$‚KP®c ¥£²N~ ŠžOýZõ®à4^|ÚZÔÍ¥ ¥ü_äS²-Æ·/} >À,À0 ŸÌ©Ì¨ÌªÀ+À/ žÀ$À( kÀ#À' gÀ"
+2026/01/16 08:50:19 [warn] 28035#28035: *42499 using uninitialized "hour" variable while logging request, client: 172.239.118.48, server: , request: "  üd\¦¢´=ÉÆJ35¢­Ú$‚KP®c ¥£²N~ ŠžOýZõ®à4^|ÚZÔÍ¥ ¥ü_äS²-Æ·/} >À,À0 ŸÌ©Ì¨ÌªÀ+À/ žÀ$À( kÀ#À' gÀ"
+2026/01/16 14:52:08 [warn] 28035#28035: *42577 using uninitialized "year" variable while logging request, client: 23.224.68.178, server: , request: "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1"
+2026/01/16 14:52:08 [warn] 28035#28035: *42577 using uninitialized "month" variable while logging request, client: 23.224.68.178, server: , request: "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1"
+2026/01/16 14:52:08 [warn] 28035#28035: *42577 using uninitialized "day" variable while logging request, client: 23.224.68.178, server: , request: "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1"
+2026/01/16 14:52:08 [warn] 28035#28035: *42577 using uninitialized "hour" variable while logging request, client: 23.224.68.178, server: , request: "POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1"
+2026/01/16 14:52:09 [warn] 28035#28035: *42578 using uninitialized "year" variable while logging request, client: 23.224.68.178, server: , request: "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh HTTP/1.1"
+2026/01/16 14:52:09 [warn] 28035#28035: *42578 using uninitialized "month" variable while logging request, client: 23.224.68.178, server: , request: "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh HTTP/1.1"
+2026/01/16 14:52:09 [warn] 28035#28035: *42578 using uninitialized "day" variable while logging request, client: 23.224.68.178, server: , request: "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh HTTP/1.1"
+2026/01/16 14:52:09 [warn] 28035#28035: *42578 using uninitialized "hour" variable while logging request, client: 23.224.68.178, server: , request: "POST /cgi-bin/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/bin/sh HTTP/1.1"
+2026/01/16 15:44:35 [warn] 28035#28035: *42628 using uninitialized "year" variable while logging request, client: 80.82.70.133, server: , request: "o kRHÅ#÷:Nßâ´‚/ÿ	TŸ§Äy°hÆŒ¤="á˜ „´,…¯nãY»bhlÿ(=':©‚ÙoÈ¢×“˜´ï€å¹ (À"
+2026/01/16 15:44:35 [warn] 28035#28035: *42628 using uninitialized "month" variable while logging request, client: 80.82.70.133, server: , request: "o kRHÅ#÷:Nßâ´‚/ÿ	TŸ§Äy°hÆŒ¤="á˜ „´,…¯nãY»bhlÿ(=':©‚ÙoÈ¢×“˜´ï€å¹ (À"
+2026/01/16 15:44:35 [warn] 28035#28035: *42628 using uninitialized "day" variable while logging request, client: 80.82.70.133, server: , request: "o kRHÅ#÷:Nßâ´‚/ÿ	TŸ§Äy°hÆŒ¤="á˜ „´,…¯nãY»bhlÿ(=':©‚ÙoÈ¢×“˜´ï€å¹ (À"
+2026/01/16 15:44:35 [warn] 28035#28035: *42628 using uninitialized "hour" variable while logging request, client: 80.82.70.133, server: , request: "o kRHÅ#÷:Nßâ´‚/ÿ	TŸ§Äy°hÆŒ¤="á˜ „´,…¯nãY»bhlÿ(=':©‚ÙoÈ¢×“˜´ï€å¹ (À"
+2026/01/16 15:45:16 [warn] 28035#28035: *42629 using uninitialized "year" variable while logging request, client: 80.82.77.202, server: , request: " î  êðŽÛÈ3Éê.‰Žl®‡’ÌVC>ÁH€ª‘y5Rß
+ ˜ýÊ¦þñÿ8¥
+£ýNòn-• …:E€öOõbæê &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 15:45:16 [warn] 28035#28035: *42629 using uninitialized "month" variable while logging request, client: 80.82.77.202, server: , request: " î  êðŽÛÈ3Éê.‰Žl®‡’ÌVC>ÁH€ª‘y5Rß
+ ˜ýÊ¦þñÿ8¥
+£ýNòn-• …:E€öOõbæê &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 15:45:16 [warn] 28035#28035: *42629 using uninitialized "day" variable while logging request, client: 80.82.77.202, server: , request: " î  êðŽÛÈ3Éê.‰Žl®‡’ÌVC>ÁH€ª‘y5Rß
+ ˜ýÊ¦þñÿ8¥
+£ýNòn-• …:E€öOõbæê &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 15:45:16 [warn] 28035#28035: *42629 using uninitialized "hour" variable while logging request, client: 80.82.77.202, server: , request: " î  êðŽÛÈ3Éê.‰Žl®‡’ÌVC>ÁH€ª‘y5Rß
+ ˜ýÊ¦þñÿ8¥
+£ýNòn-• …:E€öOõbæê &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 15:45:17 [warn] 28036#28036: *42634 using uninitialized "year" variable while logging request, client: 80.82.77.202, server: , request: " î  ê'ä8æUT‹	ádžs
+¾Øpç†£†£Ó nËî eK5NË‹üÓÞÏ‡\E˜Å—pÙ«8Ùr>ÍBr &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 15:45:17 [warn] 28036#28036: *42634 using uninitialized "month" variable while logging request, client: 80.82.77.202, server: , request: " î  ê'ä8æUT‹	ádžs
+¾Øpç†£†£Ó nËî eK5NË‹üÓÞÏ‡\E˜Å—pÙ«8Ùr>ÍBr &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 15:45:17 [warn] 28036#28036: *42634 using uninitialized "day" variable while logging request, client: 80.82.77.202, server: , request: " î  ê'ä8æUT‹	ádžs
+¾Øpç†£†£Ó nËî eK5NË‹üÓÞÏ‡\E˜Å—pÙ«8Ùr>ÍBr &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 15:45:17 [warn] 28036#28036: *42634 using uninitialized "hour" variable while logging request, client: 80.82.77.202, server: , request: " î  ê'ä8æUT‹	ádžs
+¾Øpç†£†£Ó nËî eK5NË‹üÓÞÏ‡\E˜Å—pÙ«8Ùr>ÍBr &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 15:45:36 [warn] 28036#28036: *42637 using uninitialized "year" variable while logging request, client: 80.82.77.202, server: , request: " î  êÁ¾Ñå¼Ìt‹Ã×<Ó7j~ª½“yˆ»tûT ä V¦ßUÞ„ÂgdÔœ<™”Œï[‡'ü¬×÷4 &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 15:45:36 [warn] 28036#28036: *42637 using uninitialized "month" variable while logging request, client: 80.82.77.202, server: , request: " î  êÁ¾Ñå¼Ìt‹Ã×<Ó7j~ª½“yˆ»tûT ä V¦ßUÞ„ÂgdÔœ<™”Œï[‡'ü¬×÷4 &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 15:45:36 [warn] 28036#28036: *42637 using uninitialized "day" variable while logging request, client: 80.82.77.202, server: , request: " î  êÁ¾Ñå¼Ìt‹Ã×<Ó7j~ª½“yˆ»tûT ä V¦ßUÞ„ÂgdÔœ<™”Œï[‡'ü¬×÷4 &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 15:45:36 [warn] 28036#28036: *42637 using uninitialized "hour" variable while logging request, client: 80.82.77.202, server: , request: " î  êÁ¾Ñå¼Ìt‹Ã×<Ó7j~ª½“yˆ»tûT ä V¦ßUÞ„ÂgdÔœ<™”Œï[‡'ü¬×÷4 &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 15:45:36 [warn] 28036#28036: *42640 using uninitialized "year" variable while logging request, client: 80.82.77.202, server: , request: " î  ê[¹ ËÌÙ !«AxÒ‘"É,¬¿õp¸>?0{%ÉØ Äÿ30£‹åÉ‡P+ÉV‘£üOK|Sw\yº¼xr &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 15:45:36 [warn] 28036#28036: *42640 using uninitialized "month" variable while logging request, client: 80.82.77.202, server: , request: " î  ê[¹ ËÌÙ !«AxÒ‘"É,¬¿õp¸>?0{%ÉØ Äÿ30£‹åÉ‡P+ÉV‘£üOK|Sw\yº¼xr &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 15:45:36 [warn] 28036#28036: *42640 using uninitialized "day" variable while logging request, client: 80.82.77.202, server: , request: " î  ê[¹ ËÌÙ !«AxÒ‘"É,¬¿õp¸>?0{%ÉØ Äÿ30£‹åÉ‡P+ÉV‘£üOK|Sw\yº¼xr &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 15:45:36 [warn] 28036#28036: *42640 using uninitialized "hour" variable while logging request, client: 80.82.77.202, server: , request: " î  ê[¹ ËÌÙ !«AxÒ‘"É,¬¿õp¸>?0{%ÉØ Äÿ30£‹åÉ‡P+ÉV‘£üOK|Sw\yº¼xr &À+À/À,À0Ì©Ì¨À	ÀÀ"
+2026/01/16 16:47:56 [warn] 28035#28035: *42660 using uninitialized "year" variable while logging request, client: 167.94.138.190, server: , request: "PRI * HTTP/2.0"
+2026/01/16 16:47:56 [warn] 28035#28035: *42660 using uninitialized "month" variable while logging request, client: 167.94.138.190, server: , request: "PRI * HTTP/2.0"
+2026/01/16 16:47:56 [warn] 28035#28035: *42660 using uninitialized "day" variable while logging request, client: 167.94.138.190, server: , request: "PRI * HTTP/2.0"
+2026/01/16 16:47:56 [warn] 28035#28035: *42660 using uninitialized "hour" variable while logging request, client: 167.94.138.190, server: , request: "PRI * HTTP/2.0"
+2026/01/16 16:48:00 [warn] 28036#28036: *42657 using uninitialized "year" variable while logging request, client: 167.94.138.190, server: , request: " î  êÎXAÂýºF”ô^ÒçòØíúäR†‘9Lq®"
+2026/01/16 16:48:00 [warn] 28036#28036: *42657 using uninitialized "month" variable while logging request, client: 167.94.138.190, server: , request: " î  êÎXAÂýºF”ô^ÒçòØíúäR†‘9Lq®"
+2026/01/16 16:48:00 [warn] 28036#28036: *42657 using uninitialized "day" variable while logging request, client: 167.94.138.190, server: , request: " î  êÎXAÂýºF”ô^ÒçòØíúäR†‘9Lq®"
+2026/01/16 16:48:00 [warn] 28036#28036: *42657 using uninitialized "hour" variable while logging request, client: 167.94.138.190, server: , request: " î  êÎXAÂýºF”ô^ÒçòØíúäR†‘9Lq®"
+2026/01/16 16:48:06 [warn] 28035#28035: *42663 using uninitialized "year" variable while logging request, client: 167.94.138.190, server: , request: " î  êòAmOáùU¤»ë@yô»ÌJ}º-'%Þâoƒ‡ '8"
+2026/01/16 16:48:06 [warn] 28035#28035: *42663 using uninitialized "month" variable while logging request, client: 167.94.138.190, server: , request: " î  êòAmOáùU¤»ë@yô»ÌJ}º-'%Þâoƒ‡ '8"
+2026/01/16 16:48:06 [warn] 28035#28035: *42663 using uninitialized "day" variable while logging request, client: 167.94.138.190, server: , request: " î  êòAmOáùU¤»ë@yô»ÌJ}º-'%Þâoƒ‡ '8"
+2026/01/16 16:48:06 [warn] 28035#28035: *42663 using uninitialized "hour" variable while logging request, client: 167.94.138.190, server: , request: " î  êòAmOáùU¤»ë@yô»ÌJ}º-'%Þâoƒ‡ '8"
+2026/01/16 19:42:46 [warn] 30232#30232: *11 using uninitialized "year" variable while logging request, client: 93.174.93.12, server: , request: "o kRHÅ#÷:Nßâ´‚/ÿ	TŸ§Äy°hÆŒ¤="á˜ „´,…¯nãY»bhlÿ(=':©‚ÙoÈ¢×“˜´ï€å¹ (À"
+2026/01/16 19:42:46 [warn] 30232#30232: *11 using uninitialized "month" variable while logging request, client: 93.174.93.12, server: , request: "o kRHÅ#÷:Nßâ´‚/ÿ	TŸ§Äy°hÆŒ¤="á˜ „´,…¯nãY»bhlÿ(=':©‚ÙoÈ¢×“˜´ï€å¹ (À"
+2026/01/16 19:42:46 [warn] 30232#30232: *11 using uninitialized "day" variable while logging request, client: 93.174.93.12, server: , request: "o kRHÅ#÷:Nßâ´‚/ÿ	TŸ§Äy°hÆŒ¤="á˜ „´,…¯nãY»bhlÿ(=':©‚ÙoÈ¢×“˜´ï€å¹ (À"
+2026/01/16 19:42:46 [warn] 30232#30232: *11 using uninitialized "hour" variable while logging request, client: 93.174.93.12, server: , request: "o kRHÅ#÷:Nßâ´‚/ÿ	TŸ§Äy°hÆŒ¤="á˜ „´,…¯nãY»bhlÿ(=':©‚ÙoÈ¢×“˜´ï€å¹ (À"
+2026/01/16 20:04:43 [error] 6939#6939: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 152.59.190.176, server: , request: "GET /add HTTP/1.1", upstream: "http://127.0.0.1:5000/add", host: "cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com", referrer: "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/"
+2026/01/16 20:04:50 [error] 6939#6939: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 152.59.190.176, server: , request: "GET /add HTTP/1.1", upstream: "http://127.0.0.1:5000/add", host: "cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com", referrer: "http://cloud-test-app-env.eba-mcpsvpb9.us-east-1.elasticbeanstalk.com/"
+
+
+----------------------------------------
+/var/log/web.stdout.log
+----------------------------------------
+Jan 16 20:05:48 ip-172-31-83-177 web: 2026-01-16 20:05:48 [http-nio-5000-exec-10] INFO  o.e.dbs.controller.CourseController - CourseController.saveCourse() - ENTRY - courseCode: CS - 102
+Jan 16 20:05:48 ip-172-31-83-177 web: 2026-01-16 20:05:48 [http-nio-5000-exec-10] INFO  o.example.dbs.service.CourseService - CourseService.saveCourse() - ENTRY - courseCode: CS - 102
+Jan 16 20:05:48 ip-172-31-83-177 web: 2026-01-16 20:05:48 [http-nio-5000-exec-10] DEBUG org.hibernate.SQL -
+Jan 16 20:05:48 ip-172-31-83-177 web: insert
+Jan 16 20:05:48 ip-172-31-83-177 web: into
+Jan 16 20:05:48 ip-172-31-83-177 web: courses
+Jan 16 20:05:48 ip-172-31-83-177 web: (course_code, course_name, credits, instructor)
+Jan 16 20:05:48 ip-172-31-83-177 web: values
+Jan 16 20:05:48 ip-172-31-83-177 web: (?, ?, ?, ?)
+Jan 16 20:05:48 ip-172-31-83-177 web: Hibernate:
+Jan 16 20:05:48 ip-172-31-83-177 web: insert
+Jan 16 20:05:48 ip-172-31-83-177 web: into
+Jan 16 20:05:48 ip-172-31-83-177 web: courses
+Jan 16 20:05:48 ip-172-31-83-177 web: (course_code, course_name, credits, instructor)
+Jan 16 20:05:48 ip-172-31-83-177 web: values
+Jan 16 20:05:48 ip-172-31-83-177 web: (?, ?, ?, ?)
+Jan 16 20:05:48 ip-172-31-83-177 web: 2026-01-16 20:05:48 [http-nio-5000-exec-10] INFO  o.example.dbs.service.CourseService - CourseService.saveCourse() - EXIT - Success - Course saved with id: 4
+Jan 16 20:05:48 ip-172-31-83-177 web: 2026-01-16 20:05:48 [http-nio-5000-exec-10] INFO  o.e.dbs.controller.CourseController - CourseController.saveCourse() - EXIT - Success - Redirecting to courses
+Jan 16 20:05:48 ip-172-31-83-177 web: 2026-01-16 20:05:48 [http-nio-5000-exec-1] INFO  o.e.dbs.controller.CourseController - CourseController.index() - ENTRY
+Jan 16 20:05:48 ip-172-31-83-177 web: 2026-01-16 20:05:48 [http-nio-5000-exec-1] INFO  o.example.dbs.service.CourseService - CourseService.getAllCourses() - ENTRY
+Jan 16 20:05:48 ip-172-31-83-177 web: 2026-01-16 20:05:48 [http-nio-5000-exec-1] DEBUG org.hibernate.SQL -
+Jan 16 20:05:48 ip-172-31-83-177 web: select
+Jan 16 20:05:48 ip-172-31-83-177 web: c1_0.id,
+Jan 16 20:05:48 ip-172-31-83-177 web: c1_0.course_code,
+Jan 16 20:05:48 ip-172-31-83-177 web: c1_0.course_name,
+Jan 16 20:05:48 ip-172-31-83-177 web: c1_0.credits,
+Jan 16 20:05:48 ip-172-31-83-177 web: c1_0.instructor
+Jan 16 20:05:48 ip-172-31-83-177 web: from
+Jan 16 20:05:48 ip-172-31-83-177 web: courses c1_0
+Jan 16 20:05:48 ip-172-31-83-177 web: Hibernate:
+Jan 16 20:05:48 ip-172-31-83-177 web: select
+Jan 16 20:05:48 ip-172-31-83-177 web: c1_0.id,
+Jan 16 20:05:48 ip-172-31-83-177 web: c1_0.course_code,
+Jan 16 20:05:48 ip-172-31-83-177 web: c1_0.course_name,
+Jan 16 20:05:48 ip-172-31-83-177 web: c1_0.credits,
+Jan 16 20:05:48 ip-172-31-83-177 web: c1_0.instructor
+Jan 16 20:05:48 ip-172-31-83-177 web: from
+Jan 16 20:05:48 ip-172-31-83-177 web: courses c1_0
+Jan 16 20:05:48 ip-172-31-83-177 web: 2026-01-16 20:05:48 [http-nio-5000-exec-1] INFO  o.example.dbs.service.CourseService - CourseService.getAllCourses() - EXIT - Success - Returned 2 courses
+Jan 16 20:05:48 ip-172-31-83-177 web: 2026-01-16 20:05:48 [http-nio-5000-exec-1] INFO  o.e.dbs.controller.CourseController - CourseController.index() - EXIT - Success
+Jan 16 20:05:50 ip-172-31-83-177 web: 2026-01-16 20:05:50 [http-nio-5000-exec-2] INFO  o.e.d.c.EnrollmentController - EnrollmentController.index() - ENTRY
+Jan 16 20:05:50 ip-172-31-83-177 web: 2026-01-16 20:05:50 [http-nio-5000-exec-2] INFO  o.example.dbs.service.CourseService - CourseService.getAllCourses() - ENTRY
+Jan 16 20:05:50 ip-172-31-83-177 web: 2026-01-16 20:05:50 [http-nio-5000-exec-2] DEBUG org.hibernate.SQL -
+Jan 16 20:05:50 ip-172-31-83-177 web: select
+Jan 16 20:05:50 ip-172-31-83-177 web: c1_0.id,
+Jan 16 20:05:50 ip-172-31-83-177 web: c1_0.course_code,
+Jan 16 20:05:50 ip-172-31-83-177 web: c1_0.course_name,
+Jan 16 20:05:50 ip-172-31-83-177 web: c1_0.credits,
+Jan 16 20:05:50 ip-172-31-83-177 web: c1_0.instructor
+Jan 16 20:05:50 ip-172-31-83-177 web: from
+Jan 16 20:05:50 ip-172-31-83-177 web: courses c1_0
+Jan 16 20:05:50 ip-172-31-83-177 web: Hibernate:
+Jan 16 20:05:50 ip-172-31-83-177 web: select
+Jan 16 20:05:50 ip-172-31-83-177 web: c1_0.id,
+Jan 16 20:05:50 ip-172-31-83-177 web: c1_0.course_code,
+Jan 16 20:05:50 ip-172-31-83-177 web: c1_0.course_name,
+Jan 16 20:05:50 ip-172-31-83-177 web: c1_0.credits,
+Jan 16 20:05:50 ip-172-31-83-177 web: c1_0.instructor
+Jan 16 20:05:50 ip-172-31-83-177 web: from
+Jan 16 20:05:50 ip-172-31-83-177 web: courses c1_0
+Jan 16 20:05:50 ip-172-31-83-177 web: 2026-01-16 20:05:50 [http-nio-5000-exec-2] INFO  o.example.dbs.service.CourseService - CourseService.getAllCourses() - EXIT - Success - Returned 2 courses
+Jan 16 20:05:50 ip-172-31-83-177 web: 2026-01-16 20:05:50 [http-nio-5000-exec-2] INFO  org.example.dbs.service.UserService - UserService.getAllUsers() - ENTRY
+Jan 16 20:05:50 ip-172-31-83-177 web: 2026-01-16 20:05:50 [http-nio-5000-exec-2] DEBUG org.hibernate.SQL -
+Jan 16 20:05:50 ip-172-31-83-177 web: select
+Jan 16 20:05:50 ip-172-31-83-177 web: u1_0.id,
+Jan 16 20:05:50 ip-172-31-83-177 web: u1_0.email,
+Jan 16 20:05:50 ip-172-31-83-177 web: u1_0.first_name,
+Jan 16 20:05:50 ip-172-31-83-177 web: u1_0.last_name
+Jan 16 20:05:50 ip-172-31-83-177 web: from
+Jan 16 20:05:50 ip-172-31-83-177 web: users u1_0
+Jan 16 20:05:50 ip-172-31-83-177 web: Hibernate:
+Jan 16 20:05:50 ip-172-31-83-177 web: select
+Jan 16 20:05:50 ip-172-31-83-177 web: u1_0.id,
+Jan 16 20:05:50 ip-172-31-83-177 web: u1_0.email,
+Jan 16 20:05:50 ip-172-31-83-177 web: u1_0.first_name,
+Jan 16 20:05:50 ip-172-31-83-177 web: u1_0.last_name
+Jan 16 20:05:50 ip-172-31-83-177 web: from
+Jan 16 20:05:50 ip-172-31-83-177 web: users u1_0
+Jan 16 20:05:50 ip-172-31-83-177 web: 2026-01-16 20:05:50 [http-nio-5000-exec-2] INFO  org.example.dbs.service.UserService - UserService.getAllUsers() - EXIT - Success - Returned 2 users
+Jan 16 20:05:50 ip-172-31-83-177 web: 2026-01-16 20:05:50 [http-nio-5000-exec-2] INFO  o.e.d.c.EnrollmentController - EnrollmentController.index() - EXIT - Success
+Jan 16 20:06:01 ip-172-31-83-177 web: 2026-01-16 20:06:01 [http-nio-5000-exec-3] INFO  o.e.dbs.controller.UserController - UserController.index() - ENTRY
+Jan 16 20:06:01 ip-172-31-83-177 web: 2026-01-16 20:06:01 [http-nio-5000-exec-3] INFO  org.example.dbs.service.UserService - UserService.getAllUsers() - ENTRY
+Jan 16 20:06:01 ip-172-31-83-177 web: 2026-01-16 20:06:01 [http-nio-5000-exec-3] DEBUG org.hibernate.SQL -
+Jan 16 20:06:01 ip-172-31-83-177 web: select
+Jan 16 20:06:01 ip-172-31-83-177 web: u1_0.id,
+Jan 16 20:06:01 ip-172-31-83-177 web: u1_0.email,
+Jan 16 20:06:01 ip-172-31-83-177 web: u1_0.first_name,
+Jan 16 20:06:01 ip-172-31-83-177 web: u1_0.last_name
+Jan 16 20:06:01 ip-172-31-83-177 web: from
+Jan 16 20:06:01 ip-172-31-83-177 web: users u1_0
+Jan 16 20:06:01 ip-172-31-83-177 web: Hibernate:
+Jan 16 20:06:01 ip-172-31-83-177 web: select
+Jan 16 20:06:01 ip-172-31-83-177 web: u1_0.id,
+Jan 16 20:06:01 ip-172-31-83-177 web: u1_0.email,
+Jan 16 20:06:01 ip-172-31-83-177 web: u1_0.first_name,
+Jan 16 20:06:01 ip-172-31-83-177 web: u1_0.last_name
+Jan 16 20:06:01 ip-172-31-83-177 web: from
+Jan 16 20:06:01 ip-172-31-83-177 web: users u1_0
+Jan 16 20:06:01 ip-172-31-83-177 web: 2026-01-16 20:06:01 [http-nio-5000-exec-3] INFO  org.example.dbs.service.UserService - UserService.getAllUsers() - EXIT - Success - Returned 2 users
+Jan 16 20:06:01 ip-172-31-83-177 web: 2026-01-16 20:06:01 [http-nio-5000-exec-3] INFO  o.e.dbs.controller.UserController - UserController.index() - EXIT - Success
+
+
+----------------------------------------
+/var/log/eb-engine.log
+----------------------------------------
+2026/01/16 20:04:36.266272 [INFO] Running command: systemctl stop xray.service
+2026/01/16 20:04:36.273538 [INFO] Executing instruction: stop proxy
+2026/01/16 20:04:36.273556 [INFO] Running command: systemctl show -p PartOf httpd.service
+2026/01/16 20:04:36.277611 [WARN] deregisterProcess Warning: process httpd is not registered, skipping...
+
+2026/01/16 20:04:36.277635 [INFO] Running command: systemctl show -p PartOf nginx.service
+2026/01/16 20:04:36.282405 [INFO] Running command: systemctl is-active nginx.service
+2026/01/16 20:04:36.285864 [INFO] Running command: systemctl show -p PartOf nginx.service
+2026/01/16 20:04:36.289796 [INFO] Running command: systemctl stop nginx.service
+2026/01/16 20:04:41.162698 [INFO] Running command: systemctl disable nginx.service
+2026/01/16 20:04:41.275283 [INFO] Running command: systemctl daemon-reload
+2026/01/16 20:04:41.372439 [INFO] Running command: systemctl reset-failed
+2026/01/16 20:04:41.378076 [INFO] Executing instruction: FlipApplication
+2026/01/16 20:04:41.378100 [INFO] Fetching environment variables...
+2026/01/16 20:04:41.378284 [INFO] Purge old process...
+2026/01/16 20:04:41.378305 [INFO] Running command: systemctl stop eb-app.target
+2026/01/16 20:04:41.384897 [INFO] Running command: systemctl show -p ConsistsOf eb-app.target | cut -d= -f2
+2026/01/16 20:04:41.398440 [INFO] web.service
+
+2026/01/16 20:04:41.398465 [INFO] deregistering process: web
+2026/01/16 20:04:41.398489 [INFO] Running command: systemctl show -p PartOf web.service
+2026/01/16 20:04:41.416702 [INFO] Running command: systemctl is-active web.service
+2026/01/16 20:04:41.428954 [INFO] Running command: systemctl disable web.service
+2026/01/16 20:04:41.512071 [INFO] Removed symlink /etc/systemd/system/multi-user.target.wants/web.service.
+
+2026/01/16 20:04:41.512170 [INFO] Running command: systemctl daemon-reload
+2026/01/16 20:04:41.590117 [INFO] Running command: systemctl reset-failed
+2026/01/16 20:04:41.594163 [INFO] Running command: systemctl is-active web.service
+2026/01/16 20:04:41.597665 [INFO] Process web has been fully terminated
+2026/01/16 20:04:41.597682 [INFO] All processes have been fully terminated
+2026/01/16 20:04:41.597686 [INFO] Removing /var/app/current/ if it exists
+2026/01/16 20:04:41.603683 [INFO] Renaming /var/app/staging/ to /var/app/current/
+2026/01/16 20:04:41.603712 [INFO] Register application processes...
+2026/01/16 20:04:41.603716 [INFO] Registering the proc: web
+
+2026/01/16 20:04:41.603726 [INFO] Running command: systemctl show -p PartOf web.service
+2026/01/16 20:04:41.610008 [INFO] Running command: systemctl daemon-reload
+2026/01/16 20:04:41.685233 [INFO] Running command: systemctl reset-failed
+2026/01/16 20:04:41.688871 [INFO] Running command: systemctl is-enabled eb-app.target
+2026/01/16 20:04:41.692809 [INFO] Running command: systemctl enable eb-app.target
+2026/01/16 20:04:41.772400 [INFO] Running command: systemctl start eb-app.target
+2026/01/16 20:04:41.777260 [INFO] Running command: systemctl enable web.service
+2026/01/16 20:04:41.861562 [INFO] Created symlink from /etc/systemd/system/multi-user.target.wants/web.service to /etc/systemd/system/web.service.
+
+2026/01/16 20:04:41.861588 [INFO] Running command: systemctl show -p PartOf web.service
+2026/01/16 20:04:41.865994 [INFO] Running command: systemctl is-active web.service
+2026/01/16 20:04:41.869010 [INFO] Running command: systemctl start web.service
+2026/01/16 20:04:41.880463 [INFO] Executing instruction: start X-Ray
+2026/01/16 20:04:41.880478 [INFO] X-Ray is not enabled.
+2026/01/16 20:04:41.880481 [INFO] Executing instruction: start proxy with new configuration
+2026/01/16 20:04:41.880500 [INFO] Running command: /usr/sbin/nginx -t -c /var/proxy/staging/nginx/nginx.conf
+2026/01/16 20:04:41.888235 [INFO] nginx: the configuration file /var/proxy/staging/nginx/nginx.conf syntax is ok
+nginx: configuration file /var/proxy/staging/nginx/nginx.conf test is successful
+
+2026/01/16 20:04:41.888426 [INFO] Running command: cp -rp /var/proxy/staging/nginx/* /etc/nginx
+2026/01/16 20:04:41.890994 [INFO] Running command: systemctl show -p PartOf nginx.service
+2026/01/16 20:04:41.897704 [INFO] Running command: systemctl daemon-reload
+2026/01/16 20:04:41.991747 [INFO] Running command: systemctl reset-failed
+2026/01/16 20:04:41.996417 [INFO] Running command: systemctl show -p PartOf nginx.service
+2026/01/16 20:04:42.001596 [INFO] Running command: systemctl is-active nginx.service
+2026/01/16 20:04:42.005108 [INFO] Running command: systemctl start nginx.service
+2026/01/16 20:04:42.043156 [INFO] Executing instruction: configureSqsd
+2026/01/16 20:04:42.043171 [INFO] This is a web server environment instance, skip configure sqsd daemon ...
+2026/01/16 20:04:42.043175 [INFO] Executing instruction: startSqsd
+2026/01/16 20:04:42.043177 [INFO] This is a web server environment instance, skip start sqsd daemon ...
+2026/01/16 20:04:42.043179 [INFO] Executing instruction: Track pids in healthd
+2026/01/16 20:04:42.043182 [INFO] This is an enhanced health env...
+2026/01/16 20:04:42.043192 [INFO] Running command: systemctl show -p ConsistsOf aws-eb.target | cut -d= -f2
+2026/01/16 20:04:42.050555 [INFO] healthd.service cfn-hup.service nginx.service
+
+2026/01/16 20:04:42.050580 [INFO] Running command: systemctl show -p ConsistsOf eb-app.target | cut -d= -f2
+2026/01/16 20:04:42.055674 [INFO] web.service
+
+2026/01/16 20:04:42.055826 [INFO] Executing instruction: RunAppDeployPostDeployHooks
+2026/01/16 20:04:42.055846 [INFO] Executing platform hooks in .platform/hooks/postdeploy/
+2026/01/16 20:04:42.055856 [INFO] The dir .platform/hooks/postdeploy/ does not exist
+2026/01/16 20:04:42.055859 [INFO] Finished running scripts in /var/app/current/.platform/hooks/postdeploy
+2026/01/16 20:04:42.055864 [INFO] Executing cleanup logic
+2026/01/16 20:04:42.055928 [INFO] CommandService Response: {"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"Engine execution has succeeded.","returncode":0,"events":[{"msg":"Instance deployment successfully detected a JAR file in your source bundle.","timestamp":1768593874294,"severity":"INFO"},{"msg":"Instance deployment successfully generated a 'Procfile'.","timestamp":1768593874514,"severity":"INFO"},{"msg":"Instance deployment completed successfully.","timestamp":1768593882055,"severity":"INFO"}]}]}
+
+2026/01/16 20:04:42.056053 [INFO] Platform Engine finished execution on command: app-deploy
+
+2026/01/16 20:06:12.089994 [INFO] Starting...
+2026/01/16 20:06:12.090044 [INFO] Starting EBPlatform-PlatformEngine
+2026/01/16 20:06:12.090066 [INFO] reading event message file
+2026/01/16 20:06:12.090412 [INFO] Engine received EB command cfn-hup-exec
+
+2026/01/16 20:06:12.175836 [INFO] Running command: /opt/aws/bin/cfn-get-metadata -s arn:aws:cloudformation:us-east-1:405834052100:stack/awseb-e-mpf75iwktf-stack/936d8060-e983-11f0-a5e2-0e3dfe89eb63 -r AWSEBAutoScalingGroup --region us-east-1
+2026/01/16 20:06:12.471544 [INFO] Running command: /opt/aws/bin/cfn-get-metadata -s arn:aws:cloudformation:us-east-1:405834052100:stack/awseb-e-mpf75iwktf-stack/936d8060-e983-11f0-a5e2-0e3dfe89eb63 -r AWSEBBeanstalkMetadata --region us-east-1
+2026/01/16 20:06:12.767746 [INFO] checking whether command tail-log is applicable to this instance...
+2026/01/16 20:06:12.767758 [INFO] this command is applicable to the instance, thus instance should execute command
+2026/01/16 20:06:12.767761 [INFO] Engine command: (tail-log)
+
+2026/01/16 20:06:12.767805 [INFO] Executing instruction: GetTailLogs
+2026/01/16 20:06:12.767808 [INFO] Tail Logs...
+2026/01/16 20:06:12.768081 [INFO] Running command: tail -n 100 /var/log/eb-hooks.log
+2026/01/16 20:06:12.770339 [INFO] Running command: tail -n 100 /var/log/nginx/access.log
+2026/01/16 20:06:12.771982 [INFO] Running command: tail -n 100 /var/log/nginx/error.log
+2026/01/16 20:06:12.773631 [INFO] Running command: tail -n 100 /var/log/web.stdout.log
+2026/01/16 20:06:12.775032 [INFO] Running command: tail -n 100 /var/log/eb-engine.log
+
