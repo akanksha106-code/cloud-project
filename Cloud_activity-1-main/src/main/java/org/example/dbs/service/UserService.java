@@ -19,40 +19,54 @@ public class UserService {
     }
 
     public List<User> getAllUsers() {
-        logger.info("Fetching all users");
-        List<User> users = repo.findAll();
-        logger.debug("Found {} users", users.size());
-        return users;
+        logger.info("UserService.getAllUsers() - ENTRY");
+        try {
+            List<User> users = repo.findAll();
+            logger.debug("UserService.getAllUsers() - Found {} users", users.size());
+            logger.info("UserService.getAllUsers() - EXIT - Success - Returned {} users", users.size());
+            return users;
+        } catch (Exception e) {
+            logger.error("UserService.getAllUsers() - EXIT - Error occurred while fetching users", e);
+            throw e;
+        }
     }
 
     public User getUserById(Long id) {
-        logger.info("Fetching user with id: {}", id);
-        User user = repo.findById(id).orElse(null);
-        if (user == null) {
-            logger.warn("User not found with id: {}", id);
+        logger.info("UserService.getUserById() - ENTRY - userId: {}", id);
+        try {
+            User user = repo.findById(id).orElse(null);
+            if (user == null) {
+                logger.warn("UserService.getUserById() - User not found with id: {}", id);
+                logger.info("UserService.getUserById() - EXIT - User not found");
+            } else {
+                logger.info("UserService.getUserById() - EXIT - Success - Found user: {}", user.getEmail());
+            }
+            return user;
+        } catch (Exception e) {
+            logger.error("UserService.getUserById() - EXIT - Error occurred while fetching user with id: {}", id, e);
+            throw e;
         }
-        return user;
     }
 
     public User saveUser(User user) {
-        logger.info("Saving user: {}", user.getEmail());
+        logger.info("UserService.saveUser() - ENTRY - email: {}", user.getEmail());
         try {
             User savedUser = repo.save(user);
-            logger.info("User saved successfully with id: {}", savedUser.getId());
+            logger.info("UserService.saveUser() - EXIT - Success - User saved with id: {}", savedUser.getId());
             return savedUser;
         } catch (Exception e) {
-            logger.error("Error saving user: {}", user.getEmail(), e);
+            logger.error("UserService.saveUser() - EXIT - Error occurred while saving user: {}", user.getEmail(), e);
             throw e;
         }
     }
 
     public void deleteUser(Long id) {
-        logger.info("Deleting user with id: {}", id);
+        logger.info("UserService.deleteUser() - ENTRY - userId: {}", id);
         try {
             repo.deleteById(id);
-            logger.info("User deleted successfully with id: {}", id);
+            logger.info("UserService.deleteUser() - EXIT - Success - User deleted with id: {}", id);
         } catch (Exception e) {
-            logger.error("Error deleting user with id: {}", id, e);
+            logger.error("UserService.deleteUser() - EXIT - Error occurred while deleting user with id: {}", id, e);
             throw e;
         }
     }

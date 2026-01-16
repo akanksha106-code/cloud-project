@@ -26,6 +26,16 @@
             <appender-ref ref="FILE" />
         </root>
         <logger name="org.example.dbs" level="DEBUG" />
+        <logger name="org.example.dbs.config.LoggingInterceptor" level="INFO" />
+    </springProfile>
+
+    <!-- AWS profile - ONLY uses CONSOLE (logs to stdout) -->
+    <springProfile name="aws">
+        <root level="INFO">
+            <appender-ref ref="CONSOLE" />
+        </root>
+        <logger name="org.example.dbs" level="INFO" />
+        <logger name="org.example.dbs.config.LoggingInterceptor" level="INFO" />
     </springProfile>
 
     <!-- GCP profile - ONLY uses CONSOLE (no file logging) -->
